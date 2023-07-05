@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Agdasima";
+    font-weight: 400;
+    font-style: normal;
+    src:local(Agdasima Regular),
+        local(Agdasima-Regular),
+        url("../font-styles/Agdasima-Regular.woff2") format('woff2'),
+        url("../font-styles/Agdasima-Regular.woff") format('woff'),
+        url("../font-styles/Agdasima-Regular.eot") format('eot');
+    font-display: swap;
+}
+@font-face {
+    font-family: "Agdasima";
+    font-weight: 700;
+    font-style: bold;
+    src:local(Agdasima Bold),
+        local(Agdasima-Bold),
+        url("../font-styles/Agdasima-Bold.woff2") format('woff2'),
+        url("../font-styles/Agdasima-Bold.woff") format('woff'),
+        url("../font-styles/Agdasima-Bold.eot") format('eot');
+    font-display: swap;
+}
+.parent{
+    font-size: 3em;
+}
+.normal{
+    font-family: "Agdasima" ;
+    font-weight: 400;
+}
+.fat{
+    font-family: "Agdasima" ;
+    font-weight: 700;
+}
